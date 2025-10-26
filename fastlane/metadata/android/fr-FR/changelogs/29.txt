@@ -1,0 +1,2 @@
+Changements dans la version v0.5.7:
+- Mise à jour des traductions

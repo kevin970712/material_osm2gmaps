@@ -1,0 +1,8 @@
+Grootste wijzigingen in v0.5.2:
+- Opgelost: crash in de geschiedenis, ontstaan in v0.5.1
+Grootste wijzigingen in v0.5.1:
+- Nieuw: mogelijkheid om locatiecodes te openen na exporteren;
+- Nieuw: invoervelden van aangepaste links kunnen nu meerdere regels bevatten;
+- Opgelost: omaps.app-links openden niet in de Organic Maps-app;
+- Opgelost: overlappende pop-ups in de geschiedenis;
+- Bijgewerkte vertalingen, met dank aan @mondstern (Oekraïens), @SomeTr (Oekraïens) en Vistaus (Nederlands).

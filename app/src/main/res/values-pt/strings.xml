@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configurações</string>
+    <string name="action_history">Histórico</string>
+    <string name="action_about">Sobre</string>
+    <string name="about_category_licenses">Licenças</string>
+    <string name="apple_maps" translatable="true">Apple Mapas</string>
+    <string name="action_custom_links">Links personalizados</string>
+    <string name="home_footer"><a href="https://retiolus.net">por retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Código Fonte</a> | <a href="https://liberapay.com/retiolus">Apoio</a></string>
+    <string name="info">Informações</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="convert_button_text">Conversão</string>
+    <string name="item_link">Link do Elemento</string>
+    <string name="config_checkbox_save_history">Salvar links convertidos no Histórico</string>
+    <string name="item_title">Título do Elemento</string>
+    <string name="main_input_message">Links / Coordenadas OSM</string>
+</resources>

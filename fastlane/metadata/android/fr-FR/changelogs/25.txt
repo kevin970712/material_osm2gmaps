@@ -1,0 +1,3 @@
+Principaux changements dans la v0.5.3 :
+- Correction du texte blanc dans le thème clair
+- Merci à Vistaus (néerlandais), SomeTr (ukrainien), bov (italien)

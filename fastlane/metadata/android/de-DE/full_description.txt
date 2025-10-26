@@ -1,0 +1,10 @@
+osm2gmaps ist ein vielseitiges Mapping-Utility mit dem Benutzer Standortlinks und Koordinaten zwischen verschiedenen Mapping-Diensten einfach konvertieren können. Egal ob Sie mit Apple Maps, Google Maps oder einer Open-Source-Lösung wie OpenStreetMap navigieren, osm2gmaps vereinfacht den Prozess der Erstellung von Links für jeden Ort.
+
+<b>Features:</b>
+
+* Koordinatenkonvertierung: Geben Sie Längen- und Breitengrad ein, um sofort Links für beliebte Kartendienste zu generieren.
+* Optionen für Kartenanbieter: Wählen Sie aus einer Vielzahl von Kartenanbietern wie Apple Maps, Google Maps, Magic Earth, OpenStreetMap und anderen.
+* Teilen: Teilen Sie generierte Links direkt mit anderen.
+* Standortverlauf: Behalten Sie frühere Suchen und Koordinaten für einen schnellen Zugriff.
+* Benutzerdefinierte Einstellungen: Passen Sie die App mit anpassbaren Einstellungen für Kartenanbieter und Linkformate an Ihre Vorlieben an.
+* Standort-Erkennung: Verwenden Sie die GPS- oder Netzwerkdaten Ihres Geräts, um schnell die Koordinaten Ihres aktuellen Standorts zu ermitteln.

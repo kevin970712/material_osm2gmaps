@@ -1,0 +1,10 @@
+Changelog for v0.4.2:
+- add support for several new link types (Bing, MapQuest, Yandex and more)
+- add copy to clipboard to items in History
+- add toast message when link can't be resolved without gmapsUnshortener
+- add more supported links
+- don't display all converted links by default
+- fix links in About
+- fix crash in About
+- fix unresolved Google Maps link
+- code refactoring

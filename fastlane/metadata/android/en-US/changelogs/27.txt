@@ -1,0 +1,4 @@
+Main changes in v0.5.5:
+- fixed an app crash due to number length limitations
+- fixed Google Maps coordinates extraction incorrect in some cases
+- updated locales

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_footer"><a href="https://retiolus.net">开发者 retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">源代码</a> | <a href="https://liberapay.com/retiolus">支持</a></string>
+    <string name="main_input_message">OSM 链接 / 坐标</string>
+    <string name="config_category_google_maps">‌专有短链接解析器（gmapsUnshortener）</string>
+    <string name="config_checkbox_open_copy_clipboard">使用“打开方式”时复制到剪贴板</string>
+    <string name="config_checkbox_save_history">将转换后的链接保存到历史</string>
+    <string name="action_custom_links">自定义链接</string>
+    <string name="action_history">历史</string>
+    <string name="action_about">关于</string>
+    <string name="home_message">分享一个基于OpenStreetMap应用的链接到osm2gmaps，将其转换为 Google 地图链接。</string>
+    <string name="convert_button_text">转换</string>
+    <string name="item_link">元素链接</string>
+    <string name="item_title">元素标题</string>
+    <string name="config_category_general">常规</string>
+    <string name="config_checkbox_share_open_menu">分享时打开分享菜单</string>
+    <string name="config_checkbox_open_open_menu">使用“打开方式”时打开分享菜单</string>
+    <string name="config_checkbox_share_open_default">分享时打开默认应用/链接</string>
+    <string name="config_checkbox_open_open_default">使用“打开方式”时打开默认应用/链接</string>
+    <string name="config_category_default_map_convert">要转换的默认链接类型</string>
+    <string name="config_spinner_select_map_provider_prompt">选择链接类型</string>
+    <string name="config_category_displayed_links">在主屏幕上显示的链接类型</string>
+    <string name="apple_maps" translatable="true">苹果地图</string>
+    <string name="config_input_google_maps_custom_resolver">‌输入自定义专有短链接解析器（gmapsUnshortener）</string>
+    <string name="about_osm2gmaps_version">osm2gmaps 版本：%s</string>
+    <string name="about_category_your_device">您的设备</string>
+    <string name="about_device_model">型号：%s</string>
+    <string name="about_device_android_version">Android 版本：%s</string>
+    <string name="about_device_sdk_version">SDK 版本：%s</string>
+    <string name="about_category_bug_feature">错误报告和功能请求</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="about_category_licenses">许可证</string>
+    <string name="about_osm2gmaps_license">osm2gmaps 是自由开源软件，遵循 GNU 通用公共许可协议第三版。您可以在此处查看许可协议：<a href="https://www.gnu.org/licenses/gpl-3.0.zh-cn.html">https://www.gnu.org/licenses/gpl-3.0.zh-cn.html</a></string>
+    <string name="about_openmoji_license">本应用“osm2gmaps”图标使用的表情符号源自 <a href="https://openmoji.org/">OpenMoji</a>，遵循<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans">知识共享署名—相同方式共享 4.0 国际许可协议（CC BY-SA 4.0）</a>。</string>
+    <string name="clear_history_button">清除历史</string>
+    <string name="toast_empty_input">输入为空。</string>
+    <string name="toast_need_mapu">需要 mapu.retiolus.net 来解析此链接。</string>
+    <string name="toast_need_custom_resolver">‌未指定自定义专有短链接解析器。</string>
+    <string name="delete">删除</string>
+    <string name="save">‌保存</string>
+    <string name="dismiss">关闭</string>
+    <string name="openlocationcode">开放位置编码（OLC）</string>
+    <string name="edit">编辑</string>
+    <string name="config_category_what3words">what3words API 密钥</string>
+    <string name="config_input_what3words_custom_api_key">输入您的自定义 what3words API 密钥</string>
+    <string name="what3words">what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">信息</string>
+    <string name="action_settings">设置</string>
+    <string name="config_checkbox_share_copy_clipboard">分享时复制到剪贴板</string>
+    <string name="about_bug_feature">请在 <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a> 上提交您的错误报告和功能请求。请在错误报告中提供您的设备型号、Android 版本、SDK 版本以及 osm2gmaps 版本。</string>
+    <string name="about_mapu_disclaimer">此应用包含 gmapsUnshortener 工具，用于将部分 Google 地图和其他专有短链接解析为完整 URL。需要注意的是，此功能仅在应用设置中明确启用后才会激活。选择启用后，用户可以使用该工具来保护自己的隐私和安全，因为它充当中间服务器，在必要时代表用户发出请求。此措施确保用户在保护隐私的同时能够访问完整的 Google 地图 URL。源代码可在<a href="https://codeberg.org/retiolus/gmapsUnshortener">此处</a>获取。</string>
+</resources>

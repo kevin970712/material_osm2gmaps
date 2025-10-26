@@ -1,0 +1,6 @@
+Main changes in v0.5.1:
+- add Open Location Code as output option
+- changed the input text in custom links to multi lines
+- fix omaps.app links not being opened in Organic Maps app
+- fix pop-ups overlapping in History
+- thanks to SomeTr (Ukrainian), mondstern (Ukrainian) and Vistaus (Dutch)

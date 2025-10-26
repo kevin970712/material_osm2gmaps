@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_history">歴史</string>
+    <string name="action_about">ついて</string>
+    <string name="about_category_licenses">免許証</string>
+    <string name="action_settings">設定</string>
+    <string name="apple_maps" translatable="true">Appleマップ</string>
+    <string name="action_custom_links">カスタムリンク</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">情報</string>
+    <string name="home_footer"><a href="https://retiolus.net">開発者retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">ソースコード</a> | <a href="https://liberapay.com/retiolus">サポート</a></string>
+    <string name="main_input_message">OSMリンク / 座標</string>
+    <string name="convert_button_text">変換</string>
+    <string name="item_link">要素リンク</string>
+    <string name="config_checkbox_save_history">変換したリンクを履歴に保存</string>
+    <string name="item_title">要素表題</string>
+</resources>

@@ -1,0 +1,4 @@
+Wijzigingslog (v0.5.5):
+- Opgelost: appcrash door beperkingen in getallengtes;
+- Opgelost: Google Maps-coördinaten werden soms onjuist geëxtraheerd;
+- Bijgewerkt: vertalingen.

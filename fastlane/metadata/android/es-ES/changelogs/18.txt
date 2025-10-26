@@ -1,0 +1,7 @@
+Registro de cambios para v0.4.1:
+- corrige algunos enlaces de Google Maps que no se convierten correctamente
+- corrige algunos enlaces de openstreetmap.org no se convierten correctamente
+- corrige menú de la barra de herramientas que no funciona en las actividades de configuración y acerca de
+- corrige enlaces de pie de página que no funcionan en actividades de configuración y acerca de
+- actualizar configuraciones regionales (francés, italiano, holandés)
+- mejora del código

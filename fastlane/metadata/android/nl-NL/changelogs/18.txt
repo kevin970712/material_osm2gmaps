@@ -1,0 +1,7 @@
+Wijzigingslog (v0.4.1):
+- Opgelost: sommige Google Maps-links werden niet goed omgezet
+- Opgelost: sommige openstreetmap.org-links werden niet goed omgezet
+- Opgelost: het werkbalkmenu werkte op sommige plekken niet goed
+- Opgelost: links in de voettekst werkten op sommige plekken niet goed
+- Bijgewerkt: vertalingen (Frans, Italiaans, Nederlands)
+- Verbeterd: code

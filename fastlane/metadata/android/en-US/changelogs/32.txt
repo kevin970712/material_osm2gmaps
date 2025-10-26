@@ -1,0 +1,3 @@
+Main changes in v0.5.10:
+- fix bug in Default link to convert to
+- updated locales

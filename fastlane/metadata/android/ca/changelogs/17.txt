@@ -1,0 +1,8 @@
+Registre de canvis per a la v0.4.0:
+- S'ha corregit la visualització de diversos enllaços (Mapes orgànics, OpenStreetMap)
+- Localitzacions actualitzades (castellà, francès i català)
+- suport afegit per obtenir la ubicació dins de l'aplicació
+- afegit sobre l'activitat
+- Historial afegit per als enllaços convertits
+- suport afegit des d'Android 6
+- Optimització i millora del codi

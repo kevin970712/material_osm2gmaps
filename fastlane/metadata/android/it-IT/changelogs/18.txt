@@ -1,0 +1,7 @@
+Changelog per la v0.4.1:
+- correggere alcuni link di Google Maps che non venivano convertiti correttamente
+- corretti alcuni collegamenti a openstreetmap.org che non venivano convertiti correttamente
+- corretto il menu della barra degli strumenti che non funziona nelle attività about e config
+- corretto il malfunzionamento dei link a piè di pagina nelle attività about e config
+- aggiornamento dei linguaggi locali (francese, italiano, olandese)
+- miglioramento del codice

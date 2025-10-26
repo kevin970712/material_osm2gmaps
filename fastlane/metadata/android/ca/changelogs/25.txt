@@ -1,0 +1,3 @@
+Registre de canvis per a la v0.5.3:
+- Corregit el text blanc en el tema clar
+- Gràcies a Vistaus (Neerlandès), SomeTr (Ucraïnès), bov (Italià)

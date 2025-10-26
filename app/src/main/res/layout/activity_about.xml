@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@id/footer"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/aboutOsm2gmapsVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_osm2gmaps_version" />
+
+            <TextView
+                android:id="@+id/aboutYourDeviceTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/about_category_your_device"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/aboutYourDeviceModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_device_model" />
+
+            <TextView
+                android:id="@+id/aboutYourDeviceAndroidVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_device_android_version" />
+
+            <TextView
+                android:id="@+id/aboutYourDeviceSdkVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_device_sdk_version" />
+
+            <TextView
+                android:id="@+id/aboutBugFeatureTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/about_category_bug_feature"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/aboutBugFeatureText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_bug_feature" />
+
+            <TextView
+                android:id="@+id/aboutMapuTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/about_mapu_category"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/aboutMapuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_mapu_disclaimer" />
+
+            <TextView
+                android:id="@+id/generalConfigText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/about_category_licenses"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/aboutOsm2gmapsLicense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_osm2gmaps_license" />
+
+            <TextView
+                android:id="@+id/aboutOpenMojiLicense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/about_openmoji_license" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/home_footer"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

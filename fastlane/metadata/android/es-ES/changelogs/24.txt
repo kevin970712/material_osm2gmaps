@@ -1,0 +1,8 @@
+Principales cambios en v0.5.2:
+- arreglar fallo en Historia en v0.5.1
+Principales cambios en v0.5.1:
+- añadir Open Location Code como opción de salida
+- cambiado el texto de entrada en los enlaces personalizados a varias líneas
+- arreglar los enlaces omaps.app que no se abren en la aplicación Organic Maps
+- arreglar el solapamiento de ventanas emergentes en el Historial
+- gracias a SomeTr (ucraniano), mondstern (ucraniano) y Vistaus (holandés)

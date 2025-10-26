@@ -1,0 +1,8 @@
+Principals canvis a la v0.4.4:
+- afegit suport per al format DMS
+- afegit suport per als enllaços GeoHack
+- desa la informació dels enllaços com a objectes a l'historial
+- corregit l'error a Quant a
+- corregit l'error quan gmapsUnshortener no respon
+- corregides les preferències que no s'apliquen a la primera execució
+- gràcies a bov (francès i italià) i vistaus (alemany)

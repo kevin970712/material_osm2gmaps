@@ -1,0 +1,2 @@
+Changements majeurs dans la v0.5.8 :
+- mis à jour les locales

@@ -1,0 +1,3 @@
+Wijzigingslog (v0.5.10)
+- Opgelost: bug in linkomzetting
+- Bijgewerkt: vertalingen

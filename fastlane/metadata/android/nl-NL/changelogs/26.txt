@@ -1,0 +1,6 @@
+Wijzigingslog (v0.5.4):
+- Nieuw: eigen linkopties;
+- Nieuw: bewerkknop bij eigen links;
+- Verbeterd: DMS-conversie;
+- Opgelost: reguliere uitdrukkingen in Google Maps-links;
+- Bijgewerkt: vertalingen.

@@ -1,0 +1,7 @@
+Changelog for v0.4.1:
+- fix some Google Maps links not being converted correctly
+- fix some openstreetmap.org links not being converted correctly
+- fix toolbar menu not working in about and config activities
+- fix footer links not working in about and config activities
+- update locales (French, Italian, Dutch)
+- code enhancement

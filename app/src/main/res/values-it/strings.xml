@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_bug_feature">Invia le tue segnalazioni di bug e le richieste di nuove funzionalità a <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a>. Includere il modello del dispositivo, la versione di Android, la versione dell\'SDK e la versione di osm2gmaps nelle segnalazioni di bug.</string>
+    <string name="about_mapu_disclaimer">Lo strumento gmapsUnshortener è incluso in questa app per semplificare la risoluzione di alcune Google Maps e altri collegamenti brevi nei loro URL completi. È importante notare che questa funzionalità viene utilizzata solo se abilitata esplicitamente nelle impostazioni dell\'app. Abilitandolo, gli utenti possono utilizzare lo strumento per proteggere la propria privacy e sicurezza, poiché agisce come un server intermediario, effettuando richieste per loro conto, se necessario. Questa misura garantisce che gli utenti possano accedere agli URL completi di Google Maps mantenendo la propria privacy. Il codice sorgente è disponibile <a href="https://codeberg.org/retiolus/gmapsUnshortener">qui</a>.</string>
+    <string name="config_input_google_maps_custom_resolver">Inserire un risolutore di collegamenti brevi proprietario e personalizzato (gmapsUnshortener)</string>
+    <string name="action_settings">Parametri</string>
+    <string name="action_history">Cronologia</string>
+    <string name="action_about">Circa</string>
+    <string name="home_footer"><a href="https://retiolus.net">da retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Codice Sorgente</a> | <a href="https://liberapay.com/retiolus">Supporto</a></string>
+    <string name="home_message">Condividere un link da un\'applicazione basata su OpenStreetMap a osm2gmaps per convertirlo in un link a Google Maps.</string>
+    <string name="main_input_message">Link / Coordinate OSM</string>
+    <string name="convert_button_text">Convertire</string>
+    <string name="item_link">Collegamento all\'elemento</string>
+    <string name="item_title">Titolo dell\'articolo</string>
+    <string name="about_osm2gmaps_version">Versione di osm2gmaps: %s</string>
+    <string name="about_category_your_device">Il vostro dispositivo</string>
+    <string name="about_device_model">Modello: %s</string>
+    <string name="about_device_android_version">Versione di Android: %s</string>
+    <string name="about_device_sdk_version">Versione dell\'SDK: %s</string>
+    <string name="about_category_bug_feature">Rapporti di bug e richieste di nuove funzioni</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="about_category_licenses">Licenze</string>
+    <string name="about_osm2gmaps_license">osm2gmaps è un software gratuito e open source. È concesso in licenza ai sensi della GNU General Public License versione 3. Puoi visualizzare la licenza qui: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www .gnu.org/licenses/gpl-3.0.en.html</a></string>
+    <string name="about_openmoji_license">L\'emoji utilizzato nel logo di questa app, \"osm2gmaps\", proviene da <a href="https://openmoji.org/">OpenMoji</a> ed è concesso in licenza da <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.</string>
+    <string name="clear_history_button">Cancellare la cronologia</string>
+    <string name="config_category_general">Generale</string>
+    <string name="config_checkbox_share_copy_clipboard">Copia negli appunti durante la condivisione</string>
+    <string name="config_checkbox_share_open_menu">Aprire il menu di condivisione su share</string>
+    <string name="config_checkbox_open_copy_clipboard">Copia negli appunti quando si apre con</string>
+    <string name="config_checkbox_open_open_menu">Aprire il menu di condivisione su Aprire con</string>
+    <string name="config_checkbox_save_history">Salvare i link convertiti nella cronologia</string>
+    <string name="config_category_default_map_convert">Tipo di collegamento predefinito da convertire in</string>
+    <string name="config_spinner_select_map_provider_prompt">Selezionare un tipo di collegamento</string>
+    <string name="config_category_displayed_links">Tipi di link da visualizzare nella home page</string>
+    <string name="config_category_google_maps">Risolutore proprietario di collegamenti brevi (gmapsUnshortener)</string>
+    <string name="toast_empty_input">L\'ingresso è vuoto.</string>
+    <string name="toast_need_mapu">mapu.retiolus.net è necessario per risolvere questo collegamento.</string>
+    <string name="edit">Modifica</string>
+    <string name="toast_need_custom_resolver">Non è stato specificato alcun resolver proprietario personalizzato per i collegamenti brevi.</string>
+    <string name="config_checkbox_share_open_default">Aprire l\'applicazione predefinita/il link sulla condivisione</string>
+    <string name="config_checkbox_open_open_default">Aprire l\'app predefinita / il link all\'apertura con</string>
+    <string name="action_custom_links">Link personalizzati</string>
+    <string name="save">Risparmiare</string>
+    <string name="delete">Cancellare</string>
+    <string name="dismiss">Congedo</string>
+    <string name="openlocationcode">Codice posizione aperta</string>
+    <string name="apple_maps" translatable="true">Mappe Apple</string>
+    <string name="config_input_what3words_custom_api_key">Inserite la vostra chiave Api what3words personalizzata</string>
+    <string name="what3words">what3words</string>
+    <string name="config_category_what3words">chiave Api di what3words</string>
+    <string name="info">Informazioni</string>
+    <string name="cartes_app">cartes.app</string>
+</resources>

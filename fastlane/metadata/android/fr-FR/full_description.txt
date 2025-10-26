@@ -1,0 +1,10 @@
+osm2gmaps est un utilitaire de cartographie polyvalent qui permet aux utilisateurs de convertir facilement les liens de localisation et les coordonnées entre différents services de cartographie. Que vous naviguiez avec Apple Maps, Google Maps ou que vous préfériez une solution open source comme OpenStreetMap, osm2gmaps rationalise le processus de génération de liens partageables pour n'importe quel emplacement.
+
+<b>Caractéristiques :</b>
+
+* Conversion de coordonnées : saisissez les coordonnées de latitude et de longitude pour générer instantanément des liens vers des services de cartographie populaires.
+* Options du fournisseur de cartes : choisissez parmi une variété de fournisseurs de cartes, notamment Apple Maps, Google Maps, Magic Earth, OpenStreetMap, etc.
+* Partager : partagez les liens générés directement avec d'autres.
+* Historique de localisation : gardez une trace des recherches et des coordonnées passées pour un accès rapide.
+* Personnalisation : adaptez l'application à vos préférences avec des paramètres personnalisables pour les fournisseurs de cartes et les formats de liens.
+* Détection de localisation : utilisez les données GPS ou réseau de votre appareil pour renseigner rapidement les coordonnées de votre position actuelle.

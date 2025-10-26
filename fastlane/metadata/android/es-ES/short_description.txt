@@ -1,0 +1,1 @@
+Conversor de enlaces de servicios de cartografía y geolocalización

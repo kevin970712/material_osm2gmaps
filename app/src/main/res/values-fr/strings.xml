@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_history">Historique</string>
+    <string name="action_about">À propos</string>
+    <string name="home_footer"><a href="https://retiolus.net">par retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Code source</a> | <a href="https://liberapay.com/retiolus">Soutenir</a></string>
+    <string name="home_message">Partagez un lien d\'une application basée sur OpenStreetMap vers osm2gmaps pour le convertir en lien Google Maps.</string>
+    <string name="main_input_message">Lien OSM / Coordonnées</string>
+    <string name="convert_button_text">Convertir</string>
+    <string name="item_link">Lien de l\'élément</string>
+    <string name="item_title">Titre de l\'élément</string>
+    <string name="config_category_general">Général</string>
+    <string name="config_checkbox_share_copy_clipboard">Copier dans le presse-papiers lors du partage</string>
+    <string name="config_checkbox_share_open_menu">Ouvrir le menu de partage lors du partage</string>
+    <string name="config_checkbox_open_copy_clipboard">Copier dans le presse-papiers lors de l\'ouverture avec</string>
+    <string name="config_checkbox_open_open_menu">Ouvrir le menu de partage lors de l\'ouverture avec</string>
+    <string name="config_category_default_map_convert">Type de lien par défaut vers lequel convertir</string>
+    <string name="config_spinner_select_map_provider_prompt">Sélectionnez un type de lien</string>
+    <string name="config_category_displayed_links">Types de liens à afficher sur l\'accueil</string>
+    <string name="config_category_google_maps">Résolveur de liens courts propriétaires (gmapsUnshortener)</string>
+    <string name="config_input_google_maps_custom_resolver">Entrez le résolveur de liens courts propriétaires personnalisé (gmapsUnshortener)</string>
+    <string name="about_osm2gmaps_version">Version d\'osm2gmaps : %s</string>
+    <string name="about_category_your_device">Votre appareil</string>
+    <string name="about_device_model">Modèle : %s</string>
+    <string name="about_device_android_version">Version d\'Android : %s</string>
+    <string name="about_device_sdk_version">Version du SDK : %s</string>
+    <string name="about_category_bug_feature">Rapports de bogues et requêtes de nouvelles fonctionnalités</string>
+    <string name="about_bug_feature">Soumettez vos rapports de bogues et vos demandes de nouvelles fonctionnalités à <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a>. Incluez le modèle de votre appareil, la version Android et la version du SDK ainsi que la version osm2gmaps dans les rapports de bogues.</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="about_mapu_disclaimer">L\'outil gmapsUnshortener est inclus dans cette application pour faciliter la résolution de certains liens courts Google Maps et autres dans leurs URL complètes. Il est important de noter que cette fonctionnalité n\'est utilisée que lorsqu\'elle est explicitement activée dans les paramètres de l\'application. En l\'activant, les utilisateurs peuvent utiliser l\'outil pour protéger leur confidentialité et leur sécurité, car il agit comme un serveur intermédiaire, effectuant des demandes en leur nom si nécessaire. Cette mesure garantit que les utilisateurs puissent accéder aux URL complètes de Google Maps tout en préservant leur vie privée. Le code source est disponible <a href="https://codeberg.org/retiolus/gmapsUnshortener">ici</a>.</string>
+    <string name="about_category_licenses">Licences</string>
+    <string name="about_osm2gmaps_license">osm2gmaps est un logiciel gratuit et open source. Il est sous licence GNU General Public License version 3. Vous pouvez consulter la licence ici : <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www .gnu.org/licenses/gpl-3.0.en.html</a></string>
+    <string name="about_openmoji_license">L\'emoji utilisé dans le logo de cette application, « osm2gmaps », provient de <a href="https://openmoji.org/">OpenMoji</a> et est sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.</string>
+    <string name="clear_history_button">Effacer historique</string>
+    <string name="config_checkbox_save_history">Enregistrer les liens convertis dans l\'historique</string>
+    <string name="toast_empty_input">L\'entrée est vide.</string>
+    <string name="toast_need_mapu">mapu.retiolus.net est nécessaire pour résoudre ce lien.</string>
+    <string name="apple_maps" translatable="true">Apple Plans</string>
+    <string name="config_checkbox_share_open_default">Ouvrir l\'app / lien par défaut lors du partage</string>
+    <string name="action_custom_links">Liens personnalisés</string>
+    <string name="save">Sauvegarder</string>
+    <string name="config_checkbox_open_open_default">Ouvrir l\'app / liens par défaut lors de l\'ouverture avec</string>
+    <string name="toast_need_custom_resolver">Aucun résolveur de liens courts propriétaires n\'est spécifié.</string>
+    <string name="delete">Supprimer</string>
+    <string name="dismiss">Fermer</string>
+    <string name="openlocationcode">Open Location Code</string>
+    <string name="edit">Editer</string>
+    <string name="config_category_what3words">Clé d\'API de what3words</string>
+    <string name="config_input_what3words_custom_api_key">Entrez votre propre clé d\'API de what3words</string>
+    <string name="what3words">what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">Info</string>
+</resources>

@@ -1,0 +1,8 @@
+Registro de cambios para v0.4.0:
+- Se corrigió la visualización de varios enlaces (Mapas orgánicos, OpenStreetMap)
+- locales actualizadas (español, francés y catalán)
+- Se agregó soporte para obtener la ubicación dentro de la aplicación.
+- añadido sobre la actividad
+- historial agregado para enlaces convertidos
+- soporte agregado desde Android 6
+- optimización y mejora del código

@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name" translatable="false">osm2gmaps</string>
+
+    <!-- Header-->
+    <string name="action_settings">Settings</string>
+    <string name="action_custom_links">Custom Links</string>
+    <string name="action_history">History</string>
+    <string name="action_about">About</string>
+
+    <!-- Footer -->
+    <string name="home_footer"><a href="https://retiolus.net">by retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Source Code</a> | <a href="https://liberapay.com/retiolus">Support</a></string>
+
+    <!-- Home -->
+    <string name="home_message">Share a link from an OpenStreetMap-based application to osm2gmaps to convert it to a Google Maps link.</string>
+    <string name="main_input_message">OSM link / Coords</string>
+    <string name="convert_button_text">Convert</string>
+    <string name="item_link">Item Link</string>
+    <string name="item_title">Item Title</string>
+
+    <!-- Config -->
+    <string name="config_category_general">General</string>
+    <string name="config_checkbox_share_copy_clipboard">Copy to clipboard on share</string>
+    <string name="config_checkbox_share_open_menu">Open share menu on share</string>
+    <string name="config_checkbox_open_copy_clipboard">Copy to clipboard on open with</string>
+    <string name="config_checkbox_open_open_menu">Open share menu on open with</string>
+    <string name="config_checkbox_save_history">Save converted links in History</string>
+    <string name="config_checkbox_share_open_default">Open default app / link on share</string>
+    <string name="config_checkbox_open_open_default">Open default app / link on open with</string>
+
+    <string name="config_category_default_map_convert">Default link type to convert to</string>
+    <string name="config_spinner_select_map_provider_prompt">Select a link type</string>
+
+    <string name="config_category_displayed_links">Link types to display on Home</string>
+    <string name="apple_maps" translatable="true">Apple Maps</string>
+    <string name="bing_maps" translatable="false">Bing Maps</string>
+    <string name="copernix" translatable="false">Copernix</string>
+    <string name="dms" translatable="false">DMS</string>
+    <string name="geohack" translatable="false">GeoHack</string>
+    <string name="geolink" translatable="false">GeoLink</string>
+    <string name="google_maps" translatable="false">Google Maps</string>
+    <string name="here_we_go" translatable="false">HERE WeGo</string>
+    <string name="magic_earth" translatable="false">Magic Earth</string>
+    <string name="map_quest" translatable="false">MapQuest</string>
+    <string name="openhistoricalmap" translatable="false">OpenHistoricalMap</string>
+    <string name="organic_maps" translatable="false">Organic Maps</string>
+    <string name="openstreetmap" translatable="false">OpenStreetMap</string>
+    <string name="opentopomap" translatable="false">OpenTopoMap</string>
+    <string name="waze" translatable="false">Waze</string>
+    <string name="wikimapia" translatable="false">Wikimapia</string>
+    <string name="wikiminiatlas" translatable="false">WikiMiniAtlas</string>
+    <string name="yandex" translatable="false">Yandex Maps</string>
+
+    <string name="config_category_google_maps">Proprietary short links resolver (gmapsUnshortener)</string>
+    <string-array name="proprietary_unshorteners">
+        <item>No</item>
+        <item>mapu.retiolus.net</item>
+        <item>Custom</item>
+    </string-array>
+    <string name="config_input_google_maps_custom_resolver">Enter custom proprietary short link resolver (gmapsUnshortener)</string>
+
+    <!-- About -->
+    <string name="about_osm2gmaps_version">osm2gmaps version: %s</string>
+
+    <string name="about_category_your_device">Your device</string>
+    <string name="about_device_model">Model: %s</string>
+    <string name="about_device_android_version">Android version: %s</string>
+    <string name="about_device_sdk_version">SDK version: %s</string>
+
+    <string name="about_category_bug_feature">Bug reports &amp; feature requests</string>
+    <string name="about_bug_feature">Submit your bug reports and feature request on <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a>. Please include your device model, Android version and SDK version as the osm2gmaps version in bug reports.</string>
+
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="about_mapu_disclaimer">The gmapsUnshortener tool is included in this app to facilitate the resolution of certain Google Maps and other proprietary short links into their full-length URLs. It is important to note that this feature is only activated when explicitly enabled in the app\'s settings. By opting in, users can utilize the tool to protect their privacy and security, as it acts as an intermediary server, making requests on their behalf when necessary. This measure ensures that users can access the full Google Maps URLs while safeguarding their privacy. Source code is available <a href="https://codeberg.org/retiolus/gmapsUnshortener">here</a>.</string>
+
+    <string name="about_category_licenses">Licenses</string>
+    <string name="about_osm2gmaps_license">osm2gmaps is free and open-source software. It is licensed under the GNU General Public License Version 3. You can view the license here: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a></string>
+    <string name="about_openmoji_license">The emoji used in the logo of this app, \'osm2gmaps\', is sourced from <a href="https://openmoji.org/">OpenMoji</a> and is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.</string>
+    <string name="clear_history_button">Clear History</string>
+
+
+    <!-- toasts -->
+    <string name="toast_empty_input">Input is empty.</string>
+    <string name="toast_need_mapu">mapu.retiolus.net is needed to resolve this link.</string>
+    <string name="toast_need_custom_resolver">No custom proprietary short link resolver specified.</string>
+
+    <!-- Other -->
+    <string-array name="map_providers">
+        <item>2Gis</item>
+        <item>ACME Mapper</item>
+        <item>Apple Maps</item>
+        <item>Bing Maps</item>
+        <item>cartes.app</item>
+        <item>Copernix</item>
+        <item>GeoHack</item>
+        <item>GeoLink</item>
+        <item>Google Maps</item>
+        <item>HERE WeGo</item>
+        <item>Magic Earth</item>
+        <item>MapQuest</item>
+        <item>OpenHistoricalMap</item>
+        <item>OpenStreetMap</item>
+        <item>OpenTopoMap</item>
+        <item>Organic Maps</item>
+        <item>Waze</item>
+        <item>Wikimapia</item>
+        <item>WikiMiniAtlas</item>
+        <item>Yandex Maps</item>
+    </string-array>
+
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="openlocationcode">Open Location Code</string>
+    <string name="edit">Edit</string>
+    <string name="config_category_what3words">what3words Api Key</string>
+    <string name="config_input_what3words_custom_api_key">Enter your custom what3words Api Key</string>
+    <string name="what3words">what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">Info</string>
+
+    <string name="progress_querying">Querying remote service…</string>
+    <string name="error_no_network">No network connection.</string>
+    <string name="error_service">Remote service error: %1$s</string>
+</resources>

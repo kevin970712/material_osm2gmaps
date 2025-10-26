@@ -1,0 +1,2 @@
+Main changes in v0.5.8:
+- updated locales

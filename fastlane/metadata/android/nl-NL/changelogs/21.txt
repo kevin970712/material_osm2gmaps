@@ -1,0 +1,8 @@
+Grootste wijzigingen in v0.4.4:
+-Nieuw: ondersteuning voor DMS-formaat;
+-Nieuw: ondersteuning voor GeoHack-links;
+-Nieuw: bewaar linkinformatie in de geschiedenis;
+-Opgelost: crash in sectie ‘Over’;
+-Opgelost: crash na vastlopen van gmapsUnshortener;
+-Opgelost: de instellingen werden niet toegepast na de eerste keer opstarten;
+-Bijgewerkt: Franse en Italiaanse vertaling (met dank aan @bov), en Nederlandse vertaling (met dank aan @Vistaus).

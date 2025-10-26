@@ -1,0 +1,2 @@
+Main changes in v0.5.6:
+- added w3w (what3words) converter

@@ -1,0 +1,5 @@
+Belangrijkste wijzigingen in v0.5.9:
+- Nieuw: ondersteuning voor cartes.app
+- Nieuw: donatielink
+- Verwijderd: DependencyInfoBlock
+- Bijgewerkt: vertalingen

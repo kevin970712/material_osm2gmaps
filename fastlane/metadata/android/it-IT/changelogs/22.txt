@@ -1,0 +1,8 @@
+Principali modifiche nella v0.5.0:
+- Introdotto un costruttore per i link personalizzati.
+- Implementato un popup al clic su un elemento della cronologia.
+- Attivato il risolutore di link brevi proprietario nelle impostazioni.
+- Aggiunta un'opzione per aprire l'app predefinita quando si condivide o si apre con le azioni.
+- Implementata una funzionalità per evitare voci duplicate nella cronologia.
+- Corretto il problema del timeout con il risolutore di collegamenti brevi proprietario.
+- Grazie a deevroman (russo), mondstern (ucraino), SomeTr (ucraino) e Vistaus (olandese)

@@ -1,0 +1,5 @@
+Changements majeurs dans les v.0.5.9 :
+- ajouté le support de cartes.app
+- ajouté un lien de donation
+- retiré DependencyInfoBlock
+- mis à jour les locales

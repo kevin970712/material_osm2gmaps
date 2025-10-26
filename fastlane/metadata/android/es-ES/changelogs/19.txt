@@ -1,0 +1,10 @@
+Registro de cambios para v0.4.2:
+- añadido soporte para varios tipos de enlaces nuevos (Bing, MapQuest, Yandex y más)
+- añadida copia al portapapeles a los elementos del Historial
+- añadido un mensaje de brindis cuando el enlace no se pueda resolver sin gmapsUnshortener
+- añadido más enlaces compatibles
+- no mostrar todos los enlaces convertidos de forma predeterminada
+- corregidos enlaces en Acerca de
+- corregido el fallo en Acerca de
+- corregido enlace de Google Maps no resuelto
+- refactorización del código

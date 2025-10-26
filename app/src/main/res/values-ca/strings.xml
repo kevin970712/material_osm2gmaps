@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Paràmetres</string>
+    <string name="action_history">Historial</string>
+    <string name="action_about">Quant a</string>
+    <string name="home_footer"><a href="https://retiolus.net">by retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Codi font</a> | <a href="https://liberapay.com/retiolus">Dona suport</a></string>
+    <string name="home_message">Comparteix un enllaç des d\'una aplicació basada en OpenStreetMap a osm2gmaps per convertir-lo en un enllaç de Google Maps.</string>
+    <string name="main_input_message">Enllaç OSM / Coordenades</string>
+    <string name="convert_button_text">Converteix</string>
+    <string name="item_link">Enllaç de l\'element</string>
+    <string name="item_title">Titol de l\'element</string>
+    <string name="config_category_general">General</string>
+    <string name="config_checkbox_share_copy_clipboard">Copia al porta-retalls en compartir</string>
+    <string name="config_checkbox_share_open_menu">Obre el menú de compartir en compartir</string>
+    <string name="config_checkbox_open_copy_clipboard">Copia al porta-retalls en obrir amb</string>
+    <string name="config_checkbox_open_open_menu">Obre el menú de compartir en obrir amb</string>
+    <string name="config_category_default_map_convert">Tipus d\'enllaç predeterminat al qual es convertirà</string>
+    <string name="config_spinner_select_map_provider_prompt">Selecciona un tipus d\'enllaç</string>
+    <string name="config_category_displayed_links">Tipus d\'enllaços per mostrar a la pàgina d\'inici</string>
+    <string name="config_category_google_maps">Resolució d\'enllaços curts privatius (gmapsUnshortener)</string>
+    <string name="config_input_google_maps_custom_resolver">Introduïu el sistema personalitzat de resolució d\'enllaços curts (gmapsUnshorterner)</string>
+    <string name="about_osm2gmaps_version">Versió de l\'osm2gmaps: %s</string>
+    <string name="about_category_your_device">El vostre dispositiu</string>
+    <string name="about_device_model">Model: %s</string>
+    <string name="about_device_android_version">Versió de l\'Android: %s</string>
+    <string name="about_device_sdk_version">Versió de l\'SDK: %s</string>
+    <string name="about_category_bug_feature">Informes d\'errors i sol·licituds de noves funcionalitats</string>
+    <string name="about_bug_feature">Envieu informes d\'errors i sol·licituds de funcionalitats noves a <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a>. Incloeu el model del dispositiu, la versió de l\'Android i la versió de l\'SDK com la versió d\'osm2gmaps als informes.</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="about_mapu_disclaimer">L\'eina gmapsUnshortener s\'inclou en aquesta aplicació per facilitar la resolució d\'alguns enllaços curts de Google Maps i altres als seus URL complets. És important tenir en compte que aquesta funció només s\'utilitza quan està activada explícitament a la configuració de l\'aplicació. En habilitar-lo, els usuaris poden utilitzar l\'eina per protegir la seva privadesa i seguretat, ja que actua com a servidor intermediari, fent sol·licituds en nom seu si és necessari. Aquesta mesura garanteix que els usuaris puguin accedir als URL complets de Google Maps mantenint la seva privadesa. El codi font està disponible <a href="https://codeberg.org/retiolus/gmapsUnshortener">aquí</a>.</string>
+    <string name="about_category_licenses">Llicències</string>
+    <string name="about_osm2gmaps_license">L\'osm2gmaps és programari lliure i de codi obert. Està disponible sota la Llicència Pública General de GNU versió 3. Podeu veure la llicència aquí: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html\"&gt; .gnu.org/licenses/gpl-3.0.en.html</a></string>
+    <string name="about_openmoji_license">L\'emoji que s\'utilitza al logotip d\'aquesta aplicació, \'osm2gmaps\', prové de <a href="https://openmoji.org/">OpenMoji</a> i té la llicència <a href="https:/ /creativecommons.org/licenses/by-sa/4.0/">Llicència internacional Creative Commons Reconeixement-CompartirIgual 4.0 (CC BY-SA 4.0)</a>.</string>
+    <string name="clear_history_button">Esborrar historial</string>
+    <string name="config_checkbox_save_history">Desa els enllaços convertits a l\'historial</string>
+    <string name="toast_empty_input">L\'entrada està buida.</string>
+    <string name="toast_need_mapu">Es necessita l\'ús de mapu.retiolus.net per resoldre aquest enllaç.</string>
+    <string name="apple_maps" translatable="true">Apple Mapes</string>
+    <string name="toast_need_custom_resolver">No s\'ha especificat cap resolució d\'enllaços curts propietaris.</string>
+    <string name="config_checkbox_share_open_default">Obre l\'app / enllaç per defecte al compartir</string>
+    <string name="config_checkbox_open_open_default">Obre l\'app / enllaç per defecte en obrir amb</string>
+    <string name="action_custom_links">Enllaços personalitzats</string>
+    <string name="save">Desa</string>
+    <string name="delete">Suprimeix</string>
+    <string name="dismiss">Ignora</string>
+    <string name="openlocationcode">Open Location Code</string>
+    <string name="edit">Edita</string>
+    <string name="config_category_what3words">Clau de l\'API de what3words</string>
+    <string name="what3words">what3words</string>
+    <string name="config_input_what3words_custom_api_key">Introduïu la vostra clau personalitzada de l\'API del what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">Informació</string>
+</resources>

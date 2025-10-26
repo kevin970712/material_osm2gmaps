@@ -1,0 +1,8 @@
+Main changes in v0.4.4:
+- add support for DMS format
+- add support for GeoHack link
+- save links info as objects in History
+- fix crash in About
+- fix crash when gmapsUnshortener doesn't respond
+- fix preferences not being applied on first run
+- thanks to bov (French and Italian) and Vistaus (Dutch)

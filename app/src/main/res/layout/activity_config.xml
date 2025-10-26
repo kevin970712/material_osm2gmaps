@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+      修改點 1: 新增了工具列的 include。
+      這樣 BaseActivity 中的 setUpToolbar() 函式就能找到它，避免 App 崩潰。
+    -->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <!--
+      修改點 2: 修正了 ScrollView 的約束條件。
+      - layout_constraintTop_toBottomOf 現在指向我們新增的 @id/toolbar。
+      - layout_constraintBottom_toBottomOf 現在指向父佈局的底部 (parent)，因為 footer 已經被移除。
+      - layout_height 依然是 0dp，以利用約束來填滿可用空間。
+    -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- General Configuration -->
+            <TextView
+                android:id="@+id/generalConfigText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/config_category_general"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/copyToClipboardOnShareCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_checkbox_share_copy_clipboard" />
+
+            <CheckBox
+                android:id="@+id/openShareMenuOnShareCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_checkbox_share_open_menu" />
+
+            <CheckBox
+                android:id="@+id/openDefaultAppOnShareCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_checkbox_share_open_default" />
+
+            <CheckBox
+                android:id="@+id/copyToClipboardOnOpenWithCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_checkbox_open_copy_clipboard" />
+
+            <CheckBox
+                android:id="@+id/openShareMenuOnOpenWithCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_checkbox_open_open_menu" />
+
+            <CheckBox
+                android:id="@+id/openDefaultAppOnOpenWithCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_checkbox_open_open_default" />
+
+            <CheckBox
+                android:id="@+id/saveHistoryCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_checkbox_save_history" />
+
+            <!-- Map Provider Selection -->
+            <TextView
+                android:id="@+id/mapProviderConfigText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/config_category_default_map_convert"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/selectMapProviderSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/map_providers"
+                android:prompt="@string/config_spinner_select_map_provider_prompt" />
+
+            <!-- Links Configuration -->
+            <TextView
+                android:id="@+id/linksConfigText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/config_category_displayed_links"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/displayGeoLinkMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/geolink" />
+
+            <CheckBox
+                android:id="@+id/displayAppleMapsMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apple_maps" />
+
+            <CheckBox
+                android:id="@+id/displayBingMapsMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bing_maps" />
+
+            <CheckBox
+                android:id="@+id/displayCartesAppMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cartes_app" />
+
+            <CheckBox
+                android:id="@+id/displayCopernixMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copernix" />
+
+            <CheckBox
+                android:id="@+id/displayDMSMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dms" />
+
+            <CheckBox
+                android:id="@+id/displayGeoHackMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/geohack" />
+
+            <CheckBox
+                android:id="@+id/displayGoogleMapsMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/google_maps" />
+
+            <CheckBox
+                android:id="@+id/displayHereWeGoMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/here_we_go" />
+
+            <CheckBox
+                android:id="@+id/displayMagicEarthMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/magic_earth" />
+
+            <CheckBox
+                android:id="@+id/displayMapQuestMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/map_quest" />
+
+            <CheckBox
+                android:id="@+id/displayOpenHistoricalMapMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/openhistoricalmap" />
+
+            <CheckBox
+                android:id="@+id/displayOpenLocationCodeMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/openlocationcode" />
+
+            <CheckBox
+                android:id="@+id/displayOpenStreetMapMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/openstreetmap" />
+
+            <CheckBox
+                android:id="@+id/displayOpenTopoMapMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opentopomap" />
+
+            <CheckBox
+                android:id="@+id/displayOrganicMapsMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/organic_maps" />
+
+            <CheckBox
+                android:id="@+id/displayWazeMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/waze" />
+
+            <CheckBox
+                android:id="@+id/displayWhat3WordsMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what3words" />
+
+            <CheckBox
+                android:id="@+id/displayWikiMapiaMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wikimapia" />
+
+            <CheckBox
+                android:id="@+id/displayWikiMiniAtlasMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wikiminiatlas" />
+
+            <CheckBox
+                android:id="@+id/displayYandexMainCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yandex" />
+
+            <!-- Google Maps settings -->
+            <TextView
+                android:id="@+id/googleMapsShortLinksConfigText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/config_category_google_maps"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/selectGoogleMapsShortLinksSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/proprietary_unshorteners"
+                android:prompt="@string/config_spinner_select_map_provider_prompt" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/customGoogleMapsShortLinkLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/config_input_google_maps_custom_resolver">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/customGoogleMapsShortLinkText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    tools:visibility="gone" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- what3words settings -->
+
+            <TextView
+                android:id="@+id/what3wordsConfigText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/config_category_what3words"
+                android:textSize="18sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/what3wordsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/config_input_what3words_custom_api_key">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/what3wordsText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

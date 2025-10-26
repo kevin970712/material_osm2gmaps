@@ -1,0 +1,4 @@
+Changements de la version v0.5.5:
+- Correction d'un crash liée à la longueur maximal des nombres
+- Correction de l'extraction des coordonnées Google Maps qui étaient parfois incorrectes
+- Mise à jour des traductions

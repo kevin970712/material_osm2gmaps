@@ -1,0 +1,8 @@
+Principales cambios en v0.5.0:
+- Introducido un constructor para enlaces personalizados.
+- Se ha implementado una ventana emergente al hacer clic en un elemento del historial.
+- Activada la resolución de enlaces personalizados en la configuración.
+- Añadida una opción para abrir la aplicación predeterminada al compartir o abrir con acciones.
+- Se ha implementado una función para evitar entradas duplicadas en el historial.
+- Se ha corregido el problema de tiempo de espera al utilizar el servidor de enlaces cortos propio.
+- Gracias a deevroman (ruso), mondstern (ucraniano), SomeTr (ucraniano) y Vistaus (holandés)

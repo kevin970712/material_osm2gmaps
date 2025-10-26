@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Настройки</string>
+    <string name="action_history">История</string>
+    <string name="action_about">О приложении</string>
+    <string name="main_input_message">OSM-ссылка / Координаты</string>
+    <string name="convert_button_text">Преобразовать</string>
+    <string name="apple_maps" translatable="true">Apple Maps</string>
+    <string name="about_osm2gmaps_version">Версия osm2gmaps: %s</string>
+    <string name="about_category_your_device">Ваше устройство</string>
+    <string name="about_device_model">Модель: %s</string>
+    <string name="about_device_android_version">Версия Android: %s</string>
+    <string name="about_device_sdk_version">Версия SDK: %s</string>
+    <string name="about_category_licenses">Лицензии</string>
+    <string name="clear_history_button">Очистить историю</string>
+    <string name="home_footer"><a href="https://retiolus.net">Разработано retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Исходный код</a> | <a href="https://liberapay.com/retiolus">Поддержка</a></string>
+    <string name="home_message">Поделитесь в osm2gmaps ссылкой из приложения на основе OpenStreetMap, чтобы преобразовать её в ссылку на Google Maps.</string>
+    <string name="config_category_general">Общие</string>
+    <string name="config_checkbox_share_copy_clipboard">Копировать в буфер обмена при отправке</string>
+    <string name="config_checkbox_share_open_menu">Открывать меню общего доступа при отправке</string>
+    <string name="config_checkbox_open_copy_clipboard">Копировать в буфер обмена при открытии в приложении</string>
+    <string name="config_checkbox_open_open_menu">Открывать меню общего доступа при открытии в приложении</string>
+    <string name="config_checkbox_save_history">Сохранять преобразованные ссылки в истории</string>
+    <string name="config_spinner_select_map_provider_prompt">Выберите сервис</string>
+    <string name="config_category_displayed_links">Ссылки на главном экране</string>
+    <string name="item_link">Ссылка</string>
+    <string name="item_title">Название ссылки</string>
+    <string name="config_category_google_maps">Преобразователь коротких ссылок (gmapsUnshortener)</string>
+    <string name="config_input_google_maps_custom_resolver">Введите адрес своего сервиса gmapsUnshortener</string>
+    <string name="about_category_bug_feature">Отчёты об ошибках и запрос функций</string>
+    <string name="about_bug_feature">Отправляйте отчёты об ошибках и запросы функций на <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a>. Пожалуйста, укажите модель вашего устройства, версию Android, версию SDK и версию osm2gmaps.</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="about_osm2gmaps_license">osm2gmaps — бесплатное программное обеспечение с открытым исходным кодом под лицензией GNU General Public License Version 3. Вы можете ознакомиться с лицензией здесь: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a></string>
+    <string name="about_openmoji_license">Эмодзи, используемый в логотипе osm2gmaps, взят с сайта <a href="https://openmoji.org /">OpenMoji</a> и имеет лицензию <a href="https://creativecommons.org/licenses/by-sa/4.0 /">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.</string>
+    <string name="toast_empty_input">Входные данные пусты.</string>
+    <string name="toast_need_mapu">Для преобразования этой ссылки необходимо включить поддержку mapu.retiolus.net.</string>
+    <string name="config_category_default_map_convert">Преобразовывать по умолчанию в ссылку для</string>
+    <string name="about_mapu_disclaimer">Сервис gmapsUnshortener добавлен в приложение для упрощения преобразования некоторых ссылок Google Maps и других проприетарных коротких ссылок в их полные URL-адреса. Важно отметить, что эта функция активируется только если она явно включена в настройках приложения. Пользователи могут использовать сервис для защиты конфиденциальности и безопасности, поскольку он действует как сервер-посредник, отправляя запросы от их имени, когда это необходимо. Это гарантирует, что пользователи получат доступ к полным ссылкам на Google Maps, сохраняя при этом конфиденциальность. Исходный код сервиса доступен <a href="https://codeberg.org/retiolus/gmapsUnshortener">здесь</a>.</string>
+    <string name="toast_need_custom_resolver">Пользовательский преобразователь коротких ссылок не указан.</string>
+    <string name="config_checkbox_open_open_default">Открывать приложение/ссылку через открытие в приложении</string>
+    <string name="config_checkbox_share_open_default">Открывать приложение/ссылку по умолчанию при отправке</string>
+    <string name="edit">Изменить</string>
+    <string name="action_custom_links">Пользовательские ссылки</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="dismiss">Закрыть</string>
+    <string name="openlocationcode">Открытый код местоположения (OLC)</string>
+    <string name="config_category_what3words">Ключ API what3words</string>
+    <string name="what3words">what3words</string>
+    <string name="config_input_what3words_custom_api_key">Введите свой ключ API what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">Справка</string>
+</resources>

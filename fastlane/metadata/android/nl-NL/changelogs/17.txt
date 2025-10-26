@@ -1,0 +1,8 @@
+Wijzigingslog (v0.4.0):
+- Opgelost: tonen van bepaalde links (Organic Maps, OpenStreetMap)
+- Bijgewerkt: vertalingen (Spaans, Frans en Catalaans)
+- Nieuw: ondersteuning voor opvragen van je locatie
+- Nieuw: activiteitenlogboek
+- Nieuw: geschiedenis van omgezette links
+- Nieuw: ondersteuning vanaf Android 6
+- Bijgewerkt: code geoptimaliseerd

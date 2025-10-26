@@ -1,0 +1,10 @@
+Wijzigingslog (v0.4.2):
+- Nieuw: ondersteuning voor diverse soorten links (Bing, MapQuest, Yandex en nog meer)
+- Nieuw: geschiedenisitems kopiëren naar klembord
+- Nieuw: melding als een verkorte link niet kan worden ontrafeld
+- Nieuw: voortaan worden standaard niet alle omgezette links getoond
+- Nieuw: meer ondersteunde links
+- Opgelost: links in sectie ‘Over’
+- Opgelost: crash in sectie ‘Over’
+- Opgelost: probleem met Google Maps-link
+- Verbeterd: code

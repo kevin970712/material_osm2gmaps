@@ -1,0 +1,10 @@
+osm2gmaps és una utilitat de mapes versàtil que permet als usuaris convertir fàcilment enllaços d'ubicació i coordenades entre diversos serveis de mapes. Tant si navegues amb Apple Maps, Google Maps o prefereixes una solució de codi obert com OpenStreetMap, osm2gmaps agilitza el procés de generació d'enllaços compartibles per a qualsevol ubicació.
+
+<b>Característiques:</b>
+
+* Conversió de coordenades: introduïu les coordenades de latitud i longitud per generar instantàniament enllaços per a serveis de mapes populars.
+* Personalització dels proveïdors de mapes: trieu entre una varietat de proveïdors de mapes, com ara Apple Maps, Google Maps, Magic Earth, OpenStreetMap i molt més.
+* Compartir: comparteix els enllaços generats directament amb altres persones.
+* Historial d'ubicacions: fes un seguiment de les cerques i coordenades anteriors per accedir-hi ràpidament.
+* Personalització: adapta l'aplicació a les teves preferències amb paràmetres personalitzables per a proveïdors de mapes i formats d'enllaç.
+* Detecció d'ubicació: utilitza el GPS o les dades de xarxa del teu dispositiu per omplir ràpidament les coordenades de la teva ubicació actual.

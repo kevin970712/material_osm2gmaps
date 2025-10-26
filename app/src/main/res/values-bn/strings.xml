@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">সম্পর্কে</string>
+    <string name="action_custom_links">বিশেষায়িত সংযোগ</string>
+    <string name="item_link">ভুক্তি সংযোগ</string>
+    <string name="main_input_message">OSM সংযোগ / অবস্থান</string>
+    <string name="item_title">ভুক্তি শিরোনাম</string>
+    <string name="about_device_model">মডেল: %s</string>
+    <string name="about_device_sdk_version">এসডিকে সংস্করণ: %s</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="toast_empty_input">ইনপুট খালি।</string>
+    <string name="edit">সম্পাদন</string>
+    <string name="home_footer"><a href="https://retiolus.net">retiolus এর তৈরি</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">উৎস কোড</a> | <a href="https://liberapay.com/retiolus">সমর্থন</a></string>
+    <string name="dismiss">বাদ দাও</string>
+    <string name="openlocationcode">অবস্থান কোড খুলো</string>
+    <string name="action_settings">পছন্দসমূহ</string>
+    <string name="config_checkbox_open_open_default">সহজাত অ্যাপ খুলো / সংযোগ খোলার জন্য ব্যবহৃত অ্যাপ</string>
+    <string name="action_history">ইতিহাস</string>
+    <string name="delete">অপসারণ</string>
+    <string name="convert_button_text">রূপান্তর</string>
+    <string name="config_category_general">সাধারণ</string>
+    <string name="apple_maps" translatable="true">অ্যাপল ম্যাপস</string>
+    <string name="about_category_licenses">অনুমতিপত্র</string>
+    <string name="about_category_your_device">তোমার ডিভাইস</string>
+    <string name="clear_history_button">ইতিহাস পরিষ্কার</string>
+    <string name="about_osm2gmaps_version">osm2gmaps সংস্করণ: %s</string>
+    <string name="about_device_android_version">অ্যান্ড্রয়েড সংস্করণ: %s</string>
+    <string name="config_spinner_select_map_provider_prompt">সংযোগের ধরণ নির্বাচন</string>
+    <string name="home_message">একটি OpenStreetMap-ভিত্তিক অ্যাপ্লিকেশন থেকে একটি লিঙ্ক osm2gmaps-এ শেয়ার করুন যাতে এটি Google Maps লিঙ্কে রূপান্তরিত হয়।</string>
+    <string name="config_checkbox_share_open_default">সহজাত অ্যাপ খুলো / সংযোগ শেয়ারে</string>
+    <string name="info">তথ্য</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="config_checkbox_save_history">রূপান্তরিত লিঙ্কগুলি ইতিহাসে সংরক্ষণ করুন</string>
+</resources>

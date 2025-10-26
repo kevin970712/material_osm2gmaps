@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_history">Geschiedenis</string>
+    <string name="config_checkbox_open_copy_clipboard">Kopiëren naar klembord na openen met</string>
+    <string name="about_mapu_category">mapu.retiolus.net (Google Maps-links volledig maken)</string>
+    <string name="convert_button_text">Omzetten</string>
+    <string name="config_spinner_select_map_provider_prompt">Kies het soort link</string>
+    <string name="about_category_licenses">Licenties</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="config_checkbox_save_history">Omgezette links bewaren in geschiedenis</string>
+    <string name="action_about">Over</string>
+    <string name="config_category_general">Algemeen</string>
+    <string name="config_checkbox_share_copy_clipboard">Kopiëren naar klembord na delen</string>
+    <string name="config_checkbox_open_open_menu">Deelmenu tonen na openen met</string>
+    <string name="config_category_displayed_links">Soorten links op overzicht</string>
+    <string name="config_category_google_maps">Verkorte links van gesloten diensten omzetten (gmapsUnshortener)</string>
+    <string name="about_device_sdk_version">Sdk-versie: %s</string>
+    <string name="home_footer"><a href="https://retiolus.net">van retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Broncode</a> | <a href="https://liberapay.com/retiolus">Ondersteuning</a></string>
+    <string name="home_message">Deel een link vanuit een OpenStreetMap-app met osm2gmaps om deze om te zetten naar een Google Maps-link.</string>
+    <string name="item_title">Itemnaam</string>
+    <string name="main_input_message">OSM-link / -coördinaten</string>
+    <string name="config_input_google_maps_custom_resolver">Voer de verkorte link in (gmapsUnshortener)</string>
+    <string name="about_osm2gmaps_version">osm2gmaps-versie: %s</string>
+    <string name="item_link">Itemlink</string>
+    <string name="about_category_your_device">Mijn apparaat</string>
+    <string name="about_device_android_version">Android-versie: %s</string>
+    <string name="config_checkbox_share_open_menu">Deelmenu tonen na delen</string>
+    <string name="config_category_default_map_convert">Standaard omzetten naar</string>
+    <string name="about_device_model">Model: %s</string>
+    <string name="about_category_bug_feature">Bugs melden en ideeën delen</string>
+    <string name="about_bug_feature">Meld bugs en deel ideeën op <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a>. Let op: vermeld bij bugs te allen tijde het model van je apparaat en de Android-, Sdk- en osm2gmaps-versie.</string>
+    <string name="about_osm2gmaps_license">osm2gmaps is vrije en opensourcesoftware. De apps is uitgebracht onder de GNU General Public License, versie 3. Bekijk de licentievoorwaarden: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a></string>
+    <string name="about_openmoji_license">De emoji in het applogo, van osm2gmaps is afkomstig van <a href="https://openmoji.org/">OpenMoji</a> en is uitgebracht onder de <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.</string>
+    <string name="clear_history_button">Geschiedenis wissen</string>
+    <string name="about_mapu_disclaimer">Met gmapsUnshortener - onderdeel van deze app - kun je Google Maps- en andere verkorte links omzetten naar volledige url\'s. Let op: deze functie wordt alleen geactiveerd indien ingeschakeld in de appinstellingen. Met de volledige url\'s ben je ervan verzekerd dat je privacy niet in het gedrang komt, omdat je precies kunt zien waar de url heen leidt. De broncode is beschikbaar op <a href="https://codeberg.org/retiolus/gmapsUnshortener">deze pagina</a>.</string>
+    <string name="toast_empty_input">Er is niks ingevoerd.</string>
+    <string name="toast_need_mapu">mapu.retiolus.net is benodigd voor het ophalen van de volledige link.</string>
+    <string name="apple_maps" translatable="true">Apple Kaarten</string>
+    <string name="toast_need_custom_resolver">Er is geen verkortelinksdienst gekozen.</string>
+    <string name="config_checkbox_share_open_default">Standaardapp/-link openen na delen</string>
+    <string name="config_checkbox_open_open_default">Standaardapp/-link openen na openen met</string>
+    <string name="action_custom_links">Aangepaste links</string>
+    <string name="save">Bewaren</string>
+    <string name="delete">Verwijderen</string>
+    <string name="dismiss">Negeren</string>
+    <string name="openlocationcode">Locatiecode openen</string>
+    <string name="edit">Bewerken</string>
+    <string name="config_category_what3words">what3words-api-sleutel</string>
+    <string name="config_input_what3words_custom_api_key">Voer je what3words-api-sleutel in</string>
+    <string name="what3words">what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">Informatie</string>
+</resources>

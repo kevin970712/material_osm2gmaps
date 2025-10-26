@@ -1,0 +1,3 @@
+- aggiunta di un indicatore di caricamento durante la conversione
+- pulsante di conversione disabilitato durante la conversione
+- corretto un arresto anomalo quando si fa doppio clic sul pulsante di conversione

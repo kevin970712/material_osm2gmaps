@@ -1,0 +1,8 @@
+Canvis principals a la v0.5.0:
+- Introduït un constructor d'enllaços personalitzats.
+- Implementada una finestra emergent en fer clic en un element de l'historial.
+- Activada la resolució d'enllaços curts propietaris personalitzada a la configuració.
+- Afegida una opció per obrir l'aplicació predeterminada en compartir o obrir amb accions.
+- Implementada funcionalitat per evitar entrades duplicades a l'historial.
+- Corregit el problema del temps d'espera mitjançant la resolució d'enllaços curts propietari.
+- Gràcies a deevroman (rus), mondstern (ucraïnès), SomeTr (ucraïnès) i Vistaus (holandès)

@@ -1,0 +1,6 @@
+Changements dans la version v0.5.4:
+- Ajout de paramètre le liens customisés
+- Ajout d'un bouton d'édition pour les liens customisés
+- Amélioration du convertisseur DMS
+- Correction de la regex des liens google maps
+- Mise à jours des traductions

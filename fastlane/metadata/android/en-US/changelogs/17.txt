@@ -1,0 +1,8 @@
+Changelog for v0.4.0:
+- fixed several links display (Organic Maps, OpenStreetMap)
+- updated locales (Spanish, French and Catalan)
+- added support for getting location inside the app
+- added about activity
+- added history for converted links
+- added support from Android 6
+- code optimisation and improvement

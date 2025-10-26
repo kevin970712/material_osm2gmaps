@@ -1,0 +1,3 @@
+- añadido indicador de carga al convertir
+- desactivado el botón de conversión al realizar la conversión
+- solucionado el problema al hacer doble clic en el botón Convertir

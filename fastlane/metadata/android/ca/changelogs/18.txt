@@ -1,0 +1,7 @@
+Registre de canvis per a la v0.4.1:
+- Corregits alguns enllaços de Google Maps que no es converteixen correctament
+- Corregits alguns enllaços d'openstreetmap.org que no es convertien correctament
+- Corregit el menú de la barra d'eines que no funcionava a les activitats i la configuració
+- Corregits els enllaços de peu de pàgina que no funcionen a les activitats i la configuració
+- Actualització de les traduccions (francès, italià, holandès)
+- Millora del codi

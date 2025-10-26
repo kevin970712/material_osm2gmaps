@@ -1,0 +1,3 @@
+- ajout d'un indicateur de chargement lors de la conversion
+- désactivation du bouton de conversion lors de la conversion
+- Correction d'un crash lors d'un double clic sur le bouton de conversion

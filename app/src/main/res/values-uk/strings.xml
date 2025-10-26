@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Налаштування</string>
+    <string name="action_history">Історія</string>
+    <string name="action_about">Про додаток</string>
+    <string name="main_input_message">OSM посилання / Координати</string>
+    <string name="home_message">Надішліть посилання з програми на основі OpenStreetMap до osm2gmaps, щоб перетворити його на посилання на Карти Google.</string>
+    <string name="about_category_your_device">Ваш пристрій</string>
+    <string name="about_device_model">Модель: %s</string>
+    <string name="about_device_android_version">Версія Android: %s</string>
+    <string name="about_device_sdk_version">Версія SDK: %s</string>
+    <string name="about_osm2gmaps_version">Версія osm2gmaps: %s</string>
+    <string name="home_footer"><a href="https://retiolus.net">Автор: retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Вихідний код</a> | <a href="https://liberapay.com/retiolus">Підтримати</a></string>
+    <string name="config_checkbox_save_history">Зберігати конвертовані посилання в історії</string>
+    <string name="convert_button_text">Конвертувати</string>
+    <string name="apple_maps" translatable="true">Карти Apple</string>
+    <string name="config_category_default_map_convert">Тип посилань для конвертування за замовчуванням</string>
+    <string name="config_spinner_select_map_provider_prompt">Виберіть тип посилань</string>
+    <string name="config_category_general">Загальне</string>
+    <string name="config_checkbox_share_copy_clipboard">«Поділитися» копіює в буфер обміну</string>
+    <string name="config_checkbox_share_open_menu">«Поділитися» відкриває меню «Поділитися»</string>
+    <string name="config_checkbox_open_open_menu">«Відкрити за допомогою» відкриває меню «Поділитися»</string>
+    <string name="config_category_displayed_links">Типи посилань для відображення на головній сторінці</string>
+    <string name="item_link">Посилання</string>
+    <string name="item_title">Назва</string>
+    <string name="config_input_google_maps_custom_resolver">Введіть власний обробник коротких посилань (gmapsUnshortener)</string>
+    <string name="about_category_licenses">Ліцензії</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+    <string name="about_category_bug_feature">Звіти про помилки та запити на нові функції</string>
+    <string name="about_bug_feature">Надсилайте повідомлення про помилки та запити на розробку нових функцій на <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a>. У звітах про помилки вказуйте, будь ласка, модель Вашого пристрою, версію Android, версію SDK, а також версію osm2gmaps.</string>
+    <string name="clear_history_button">Очистити історію</string>
+    <string name="toast_empty_input">Вхідні дані порожні.</string>
+    <string name="toast_need_mapu">Щоб розпізнати це посилання, потрібен mapu.retiolus.net.</string>
+    <string name="config_checkbox_open_copy_clipboard">«Відкрити за допомогою» копіює в буфер обміну</string>
+    <string name="config_category_google_maps">Обробник коротких посилань (gmapsUnshortener)</string>
+    <string name="about_openmoji_license">Емоджі, що використовується в логотипі цього додатка, «osm2gmaps», взято з <a href="https://openmoji.org/">OpenMoji</a> та ліцензовано за <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.</string>
+    <string name="about_osm2gmaps_license">osm2gmaps — це безкоштовне програмне забезпечення з відкритим кодом. Воно поширюється під Загальною громадською ліцензією GNU (GPL) версії 3. Ознайомитися з ліцензією можна тут: <a href="https://www.gnu.org/licenses/gpl-3.0.uk.html">https://www.gnu.org/licenses/gpl-3.0.uk.html</a></string>
+    <string name="about_mapu_disclaimer">Інструмент gmapsUnshortener включено в цю програму, щоб полегшити перетворення певних коротких посилань (з Карт Google та інших) на повні URL-адреси. Важливо зауважити, що ця функція активується лише тоді, коли її явно ввімкнено в налаштуваннях програми. Увімкнувши її, користувачі можуть використовувати інструмент для захисту своєї конфіденційності та безпеки, оскільки він діє як проміжний сервер, надсилаючи запити від їх імені, коли це необхідно. Цей захід гарантує, що користувачі можуть отримати доступ до повних URL-адрес Карт Google, зберігаючи при цьому свою конфіденційність. Вихідний код доступний <a href="https://codeberg.org/retiolus/gmapsUnshortener">тут</a>.</string>
+    <string name="toast_need_custom_resolver">Не вказано власного обробника коротких посилань.</string>
+    <string name="config_checkbox_share_open_default">«Поділитися» відкриває додаток/посилання за замовчуванням</string>
+    <string name="config_checkbox_open_open_default">«Відкрити за допомогою» відкриває додаток/посилання за замовчуванням</string>
+    <string name="delete">Видалити</string>
+    <string name="save">Зберегти</string>
+    <string name="dismiss">Відхилити</string>
+    <string name="action_custom_links">Користувацькі посилання</string>
+    <string name="openlocationcode">Відкрити код місцезнаходження</string>
+    <string name="edit">Змінити</string>
+    <string name="config_category_what3words">Ключ API what3words</string>
+    <string name="what3words">what3words</string>
+    <string name="config_input_what3words_custom_api_key">Введіть власний ключ API what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="info">Інформація</string>
+</resources>

@@ -1,0 +1,10 @@
+Changelog per la versione 0.4.2:
+- aggiungere il supporto per diversi nuovi tipi di link (Bing, MapQuest, Yandex e altri)
+- aggiunta la copia negli appunti per gli elementi della Cronologia
+- aggiunta di un messaggio di brindisi quando il collegamento non può essere risolto senza gmapsUnshortener
+- aggiungere altri collegamenti supportati
+- non visualizzare tutti i link convertiti per impostazione predefinita
+- correggere i collegamenti in Informazioni su
+- correggere l'arresto anomalo in Informazioni su
+- correggere i collegamenti a Google Maps non risolti
+- rifattorizzazione del codice

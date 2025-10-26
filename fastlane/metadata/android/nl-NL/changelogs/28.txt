@@ -1,0 +1,2 @@
+Wijzigingslog (v0.5.6):
+- Nieuw: w3w (what3words) omzetten

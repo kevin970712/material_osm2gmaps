@@ -1,0 +1,2 @@
+v0.5.21:
+- Show progress indicator during conversion

@@ -1,0 +1,3 @@
+Wijzigingslog (0.5.3):
+-Opgelost: witte tekst in licht thema;
+-Bijgewerkt: Italiaanse vertaling (met dank aan @bov), Oekraïense vertaling (met dank aan @SomeTr) en Nederlandse vertaling (met dank aan @Vistaus).

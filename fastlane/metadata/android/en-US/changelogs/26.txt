@@ -1,0 +1,6 @@
+Main changes in v0.5.4:
+- added custom link parameters
+- added edit button for custom links
+- enhanced DMS converter
+- fixed google maps link regex
+- updated locales

@@ -1,0 +1,6 @@
+Principals canvis a la v0.5.1:
+- afegit Open Location Code com a opció de sortida
+- s'ha canviat el text d'entrada als enllaços personalitzats a diverses línies
+- corregits els enllaços d'omaps.app que no s'obren a l'aplicació d'Organic Maps
+- corregides les finestres emergents que se superposen a l'historial
+- gràcies a SomeTr (ucraïnès), mondstern (ucraïnès) i Vistaus (holandès)

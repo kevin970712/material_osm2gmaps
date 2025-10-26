@@ -1,0 +1,3 @@
+- afegit indicar de càrrega en convertir
+- desactivat botó de conversió al convertir
+- corregit error al fer doble clic sobre botó de convertir

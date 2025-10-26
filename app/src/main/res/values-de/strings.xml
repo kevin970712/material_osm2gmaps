@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_history">Verlauf</string>
+    <string name="action_about">Über</string>
+    <string name="convert_button_text">Umwandeln</string>
+    <string name="main_input_message">OSM-Link / Koordinaten</string>
+    <string name="action_custom_links">Benutzerdefinierte Links</string>
+    <string name="home_message">Teile einen Link einer OpenStreetMap-basierten Anwendung mit osm2gmaps, um ihn in einen Google Maps-Link zu konvertieren.</string>
+    <string name="item_link">Link-Vorlage</string>
+    <string name="item_title">Link-Name</string>
+    <string name="config_category_general">Allgemein</string>
+    <string name="config_checkbox_share_copy_clipboard">Bei Teilen in Zwischenablage kopieren</string>
+    <string name="config_checkbox_share_open_menu">Bei Teilen Teilen-Menü</string>
+    <string name="config_checkbox_open_copy_clipboard">Bei \"Öffnen mit\" in Zwischenablage kopieren</string>
+    <string name="config_checkbox_open_open_menu">Bei \"Öffnen mit\" teilen</string>
+    <string name="config_checkbox_save_history">Konvertierte Links in Verlauf speichern</string>
+    <string name="config_checkbox_share_open_default">Bei Teilen Standard-App/-Link öffnen</string>
+    <string name="config_checkbox_open_open_default">Bei \"Öffnen mit\" Standard-App/-Link öffnen</string>
+    <string name="config_category_displayed_links">Link-Typen auf der Startseite</string>
+    <string name="config_category_default_map_convert">Standard Link-Typ zum Konvertieren</string>
+    <string name="config_spinner_select_map_provider_prompt">Link-Typ auswählen</string>
+    <string name="about_osm2gmaps_version">osm2gmaps-Version: %s</string>
+    <string name="about_category_your_device">Dein Gerät</string>
+    <string name="about_category_licenses">Lizenzen</string>
+    <string name="about_bug_feature">Reiche deine Fehlermeldungen und Verbesserungsvorschläge auf <a href="https://codeberg.org/retiolus/osm2gmaps/issues/">Codeberg</a> ein. Bitte gib in Fehlermeldungen deine Gerätespezifikation, Android-, SDK- sowie osm2gmaps-Version an.</string>
+    <string name="about_category_bug_feature">Fehlermeldungen und Verbesserungsvorschläge</string>
+    <string name="about_device_android_version">Android-Version: %s</string>
+    <string name="about_device_sdk_version">SDK-Version: %s</string>
+    <string name="about_device_model">Modell: %s</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="dismiss">Verwerfen</string>
+    <string name="info">Info</string>
+    <string name="save">Speichern</string>
+    <string name="config_category_what3words">whats3words API-Schlüssel</string>
+    <string name="delete">Löschen</string>
+    <string name="config_input_what3words_custom_api_key">Gib deinen persönlichen what3words API-Schlüssel ein</string>
+    <string name="clear_history_button">Verlauf leeren</string>
+    <string name="toast_empty_input">Eingabe ist leer.</string>
+    <string name="toast_need_custom_resolver">Kein benutzerdefinierter Kurzlink-Auflöser definiert.</string>
+    <string name="toast_need_mapu">mapu.retiolus.net wird benötigt, um diesen Link aufzulösen.</string>
+    <string name="about_openmoji_license">Das Emoji im Logo der App \"osm2gmaps\" stammt von <a href="https://openmoji.org/">OpenMoji</a> und ist unter <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung-Share Alike 4.0 International (CC BY-SA 4.0)</a> lizenziert.</string>
+    <string name="config_category_google_maps">Auflöser für proprietäre Kurzlinks (gmapsUnshortener)</string>
+    <string name="config_input_google_maps_custom_resolver">Benutzerdefinierten Auflöser für proprietäre Kurzlinks (gmapsUnshortener) eingeben</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="home_footer"><a href="https://retiolus.net">Von retiolus</a> | <a href="https://codeberg.org/retiolus/osm2gmaps">Quellcode</a> | <a href="https://liberapay.com/retiolus">Unterstützen</a></string>
+    <string name="about_osm2gmaps_license">osm2gmaps ist Free and open-source software (FOSS). Es ist lizenziert unter der GNU General Public License Version 3. Die Lizenz ist hier einzusehen: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a></string>
+    <string name="about_mapu_disclaimer">Der gmapsUnshortener in dieser App kann genutzt werden, um bestimmte Google Maps- und andere proprietäre Kurzlinks in normal lange URLs umzuwandeln. Wichtig anzumerken ist dass diese Funktion explizit in den Einstellungen aktiviert werden muss. Nach Aktivierung dient das Tool dem Schutz der Privatsphäre und Sicherheit des Benutzers, da es als Zwischenserver agiert und ggf. die Anfragen in Auftrag macht. Dies stellt sicher, dass ganze Google Maps-URLs zugänglich sind, während die Anonymität vor Google gewahrt wird. Der Quellcode ist <a href="https://codeberg.org/retiolus/gmapsUnshortener">hier</a> verfügbar.</string>
+    <string name="apple_maps" translatable="true">Apple Karten</string>
+    <string name="openlocationcode">Locationcode öffnen</string>
+    <string name="what3words">what3words</string>
+    <string name="cartes_app">cartes.app</string>
+    <string name="about_mapu_category">mapu.retiolus.net (gmapsUnshortener)</string>
+</resources>

@@ -1,0 +1,8 @@
+Principaux changements dans la v0.5.0 :
+- Ajout d'un constructeur pour créer des liens personnalisés.
+- Ajout d'un popup en cliquant sur un élément de l'historique.
+- Activation du résolveur de liens courts propriétaire personnalisé dans les paramètres.
+- Ajout d'une option pour ouvrir l'application par défaut lors du partage ou l'ouvrir avec des actions.
+- Fonctionnalité implémentée pour éviter les entrées en double dans l'historique.
+- Correction d'un problème de délai d'attente à l'aide d'un résolveur de liens courts propriétaire.
+- Merci à deevroman (russe), mondstern (ukrainien), SomeTr (ukrainien) et Vistaus (néerlandais)

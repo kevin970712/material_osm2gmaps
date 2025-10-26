@@ -1,0 +1,10 @@
+osm2gmaps è un'utilità di mappatura versatile che consente agli utenti di convertire facilmente collegamenti e coordinate di posizione tra vari servizi di mappatura. Sia che tu stia navigando con Apple Maps, Google Maps o preferisci una soluzione open source come OpenStreetMap, osm2gmaps semplifica il processo di generazione di collegamenti condivisibili per qualsiasi posizione.
+
+<b>Caratteristiche:</b>
+
+* Conversione delle coordinate: inserisci le coordinate di latitudine e longitudine per generare istantaneamente collegamenti per i servizi di mappatura più diffusi.
+* Opzioni del fornitore di mappe: scegli tra una varietà di fornitori di mappe tra cui Apple Maps, Google Maps, Magic Earth, OpenStreetMap e altro ancora.
+* Condividi: condividi i collegamenti generati direttamente con altri.
+* Cronologia delle posizioni: tieni traccia delle ricerche e delle coordinate passate per un accesso rapido.
+* Personalizzazione: personalizza l'app in base alle tue preferenze con impostazioni personalizzabili per fornitori di mappe e formati di collegamento.
+* Rilevamento della posizione: utilizza il GPS del tuo dispositivo o i dati di rete per inserire rapidamente le coordinate della tua posizione attuale.

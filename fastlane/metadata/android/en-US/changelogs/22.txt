@@ -1,0 +1,8 @@
+Main changes in v0.5.0:
+- Introduced a constructor for custom links.
+- Implemented a popup on click on an item in history.
+- Activated custom proprietary short link resolver in settings.
+- Added an option to open the default app on share or open with actions.
+- Implemented functionality to avoid duplicate entries in the history.
+- Fixed timeout issue using proprietary short link resolver.
+- Thanks to deevroman (Russian), mondstern (Ukrainian), SomeTr (Ukrainian) and Vistaus (Dutch)

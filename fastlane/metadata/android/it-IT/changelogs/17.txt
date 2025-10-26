@@ -1,0 +1,8 @@
+Giornale delle modificazioni per la v0.4.0:
+- corretta la visualizzazione di alcuni link (Organic Maps, OpenStreetMap)
+- aggiornato le lingue locali (spagnolo, francese e catalano)
+- aggiunto il supporto per ottenere la posizione all'interno dell'app
+- aggiunta la funzione "Informazioni sull'attività
+- aggiunta la cronologia per i link convertiti
+- aggiunto il supporto per Android 6
+- ottimizzazione e miglioramento del codice

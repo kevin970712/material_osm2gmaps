@@ -1,0 +1,10 @@
+osm2gmaps is een kaarthulpmiddel waarmee je locatielinks en coördinaten van kaartdiensten kunt delen. Of je nu navigeert met Apple Kaarten, Google Maps of een opensourcedienst als OpenStreetMap, met osm2gmaps kun je deelbare links voor elke locatie maken.
+
+<b>Kenmerken:</b>
+
+* Coördinaten omzetten: voer de lengte- en breedtegraad in om links te maken voor populaire kaartdiensten;
+* Kaartdienstkeuze: kies uit verschillende kaartdiensten, waaronder Apple Kaarten, Google Maps, Magic Earth en OpenStreetMap;
+* Delen: deel links tussen kaartdiensten;
+* Locatiegeschiedenis: houd bij welke locaties en coördinaten je eerder hebt gebruikt om ze snel opnieuw te kunnen gebruiken;
+* Aanpassing: er zijn veel instellingen om de app naar eigen hand te zetten;
+* Locatiedetectie: vraag je huidige locatie op middels gps of mobiel internet om snel je coördinaten te kunnen verkrijgen.

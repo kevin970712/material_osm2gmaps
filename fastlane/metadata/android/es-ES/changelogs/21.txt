@@ -1,0 +1,8 @@
+Principales cambios en v0.4.4:
+- añadido soporte para el formato DMS
+- añadido soporte para enlaces GeoHack
+- guarda la información de los enlaces como objetos en el Historial
+- corregido fallo en Acerca de
+- corregido fallo cuando gmapsUnshortener no responde
+- corregido que las preferencias no se apliquen en la primera ejecución
+- gracias a bov (francés e italiano) y Vistaus (holandés)

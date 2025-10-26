@@ -1,0 +1,8 @@
+Journal des modifications pour la v0.4.0 :
+- correction de l'affichage de plusieurs liens (Organic Maps, OpenStreetMap)
+- paramètres régionaux mis à jour (espagnol, français et catalan)
+- ajout du support pour obtenir l'emplacement dans l'application
+- ajouté sur l'activité
+- ajout d'un historique pour les liens convertis
+- ajout du support d'Android 6
+- optimisation et amélioration du code

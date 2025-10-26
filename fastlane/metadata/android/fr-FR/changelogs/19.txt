@@ -1,0 +1,10 @@
+Changelog pour la v0.4.2 :
+- ajout de la prise en charge de plusieurs nouveaux types de liens (Bing, MapQuest, Yandex et autres)
+- ajout de la copie dans le presse-papier pour les éléments de l'historique
+- ajout d'un message de toast lorsque le lien ne peut pas être résolu sans gmapsUnshortener
+- ajout de nouveaux liens compatibles
+- n'affiche pas tous les liens convertis par défaut
+- correction des liens dans À propos
+- Correction d'un crash dans À propos
+- Correction d'un lien Google Maps non résolu
+- refactorisation du code

@@ -1,0 +1,5 @@
+Hauptänderungen in v0.5.9
+- Unterstützung für cartes.app hinzugefügt
+- Spendenlink hinzugefügt
+- DependencyInfoBlock entfernt
+- Locales aktualisiert

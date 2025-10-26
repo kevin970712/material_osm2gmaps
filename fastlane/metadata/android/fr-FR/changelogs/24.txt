@@ -1,0 +1,8 @@
+Principaux changements dans la version 0.5.2 :
+- corrections d'une erreur dans l'Historique
+Principaux changements dans la version 0.5.1 :
+- ajout du format Open Location Code en sortie
+- modification du texte d'entrée dans les liens personnalisés pour qu'il soit multilignes
+- correction des liens omaps.app qui ne s'ouvrent pas dans l'application Organic Maps
+- correction des popups qui se chevauchent dans l'historique
+- merci à SomeTr (Ukrainien), mondstern (Ukrainien) et Vistaus (Hollandais)

@@ -1,0 +1,3 @@
+- add loading indicator when converting
+- disable convert button when converting
+- fix crash on double click on convert button

@@ -1,0 +1,10 @@
+Registre de canvis per a la v0.4.2:
+- afegit suport per a diversos tipus d'enllaços nous (Bing, MapQuest, Yandex i més)
+- afegida la còpia al porta-retalls dels elements de l'historial
+- afegit un missatge d'error quan l'enllaç no es pot resoldre sense gmapsUnshortener
+- afegits més enllaços convertibles
+- no mostrar tots els enllaços compatibles per defecte
+- corregits els enllaços a Quant a
+- corregit un error a Quant a
+- corregits enllaços de Google Maps no resolts
+- millora del codi
